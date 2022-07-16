@@ -1,0 +1,70 @@
+* {
+    background-color: #181b20;
+    color: #ccc;
+    font-family: 'SF Pro Display', sans-serif;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+button {
+    border: 0;
+    cursor: pointer;
+}
+
+nav img {
+    height: 3.5vh;
+}
+
+
+#access {
+    background-color: #22272f;
+    width: 100%;
+}
+
+nav {
+    background-color: #22272f;
+    height: 100vh;
+    width: 20vw;
+}
+
+.access *,
+nav * {
+    background-color: #22272f;
+}
+
+.access * {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    height: 3.5vh;
+}
+
+h6 {
+    border-bottom: 0.03rem solid #444;
+    font-size: 2.5vh;
+    font-weight: bold;
+    padding: 2vh 1vw 0 1vw;
+    margin: 0;
+}
+
+li {
+    display: block;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    margin-top: 0;
+}
+
+a * {
+    margin: 0.3vh;
+    display: inline-block;
+}
+
+#access,
+nav {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
